@@ -74,8 +74,11 @@ class PlantUML extends DOMListener{
 
 
 	_onEditorChange(/*e*/) {
-		this.saveStatus();
-		this.callServer();
+		clearTimeout(this._editChangeTO);
+		this._editChangeTO = setTimeout(() => {
+			this.saveStatus();
+			this.callServer();
+		}, 500);
 	}
 
 	loadPreviousStatus() {
