@@ -1,0 +1,19 @@
+{
+  "name": "plant-uml-editor",
+  "version": "1.0.0",
+  "description": "A Web Browser Agile Plant UML Editor",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "plant",
+    "uml",
+    "editor",
+    "agile",
+    "rapid",
+    "fast"
+  ],
+  "author": "Daniel Goberitz <dalgo86@gmail.com>",
+  "license": "MIT"
+}

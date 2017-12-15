@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>dgPlantUML</title>
+		<link rel="stylesheet" type="text/css" class="transpasableSS" href="css/styles.css">
+		<script src="node_modules/requirejs/require.js" data-main="app/main.js" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+	<body class="superpossed">
+		<div class="editor" id="editor-pane">
+			<div id="editor">@startuml
+Bob -> Alice : hello
+@enduml
+			</div>
+			<div id="error" style="display: none"></div>
+			<div id="info" style="display: none"></div>
+		</div>
+		<div class="uml-presenter" id="uml-presenter">
+
+		</div>
+	</body>
+</html>
